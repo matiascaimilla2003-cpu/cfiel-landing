@@ -3,7 +3,14 @@
     "allow": [
       "PowerShell(Get-Content *)",
       "Bash(Get-ChildItem *)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(powershell *)",
+      "Bash(python update_cfiel.py)",
+      "Bash(python -c ' *)",
+      "Bash(python fix_cfiel.py)",
+      "Bash(del update_cfiel.py fix_cfiel.py)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
